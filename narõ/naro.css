@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header ,
+section h2,
+section h3,
+form button{
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+body,
+input,
+textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+form textarea{
+    height: 180px;
+}
+
+header{
+    padding: 16px 0.;
+    background-color: #7fab26;
+    color: #ECF0f1;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a{ 
+    color:#ECF0f1;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-list img{
+    height: 24px;
+}
+
+.brand-list li{
+    display: inline;
+}
+
+section .container{
+    align-items:center;
+}
+
+section{
+    padding: 24px 0;
+    color:#7fab26;
+}
+
+section h2{
+    margin-bottom: 16px;
+    color:#7fab26;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+    section img{
+    margin-right: 32px;
+    }
+
+    .store-front{
+    margin-right: 32px;
+    }
+
+.social-links img{
+    height: 24px;
+}
+
+#contact .container{
+    display: block;
+}
+
+.pratos img{
+    width: 200px;
+    max-width: 250px;}
+
+.pratos{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.contact-method{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    border: none;
+    color:#ECF0f1;
+    background-color: #7fab26;
+    cursor:pointer;
+}
+
+form button:hover{
+    background-color: #03824b;
+}
+
+input:focus, textarea:focus{
+    outline-color:#7fab26;
+}
+
+footer{
+    background-color: #7fab26;
+    color: #ECF0f1;
+    padding: 16px 0;
+}
